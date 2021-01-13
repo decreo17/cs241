@@ -14,7 +14,6 @@ def parse_file(filename,givenword):
                 match = re.search(".*" + givenword,word)
                 if match:
                 #if word == givenword:
-                    print (word)
                     count += 1
                 
     return count
